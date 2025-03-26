@@ -1,10 +1,10 @@
 function factorial(n) {
-  let i = n - 1;
-  let f = n;
-  if (f == 0) return 1;
-  while(i){
-    f = f * (i)
-    i--
+  let index = n - 1;
+  let factorial = n;
+  if (factorial == 0) return 1;
+  while(index){
+    factorial = factorial * (i)
+    index--
   }
-  return f;
+  return factorial;
 }
